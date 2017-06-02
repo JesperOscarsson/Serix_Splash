@@ -14,9 +14,19 @@ body {
 }
 
     #header h1 {
-        font-size: 250%;
+        font-size: 300%;
         cursor: default;
     }
+
+#stealthBox {
+    position: fixed;
+    top: 0;
+    /*15px comes from the box width/2*/
+    left: calc(50vw - 15px);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
 
 #body {
     text-align: center;
