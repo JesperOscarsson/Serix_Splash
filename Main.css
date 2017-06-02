@@ -1,0 +1,66 @@
+body {
+    background-image: url("Media/serixbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'Economica', sans-serif;
+    color: #ffffff;
+    /*Font size base value, all other font sizes are relative to this*/
+    font-size: 16px;
+}
+
+#header {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+    #header h1 {
+        font-size: 250%;
+        cursor: default;
+    }
+
+#body {
+    text-align: center;
+    margin-top: 18vh;
+}
+
+    #body a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+#log-in {
+    margin-bottom: 4vh;
+}
+
+.btn {
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: 0 2px 5px #2d2d2d;
+    background-color: #0071BC;
+    width: 30vw;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 220%;
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Economica', sans-serif;
+}
+
+    .btn:hover, .btn:focus {
+        background-color: #027dd0;
+        outline: none;
+        font-weight: 500;
+        box-shadow: 0 4px 10px #2d2d2d;
+    }
+
+@media screen and (max-width: 1023px) {
+    .btn {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .btn {
+        width: 80vw;
+    }
+}
